@@ -6,6 +6,7 @@ import Login from './auth/Login'
 import Signup from './auth/Signup'
 import Admin from './pages/Admin'
 import Loader from './ui/Loader'
+import Use from './pages/Use'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Route path="/l" element={<Login/>}/>
     <Route path="/admin" element={<Admin/>}/>
     <Route path="/loader" element={<Loader/>}/>
+    <Route path="/u" element={<Use/>}/>
   </Routes>
   </BrowserRouter>
   </>
